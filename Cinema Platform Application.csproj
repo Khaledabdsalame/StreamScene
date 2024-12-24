@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Cinema_Platform_Application</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>App.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Action\**" />
+    <Compile Remove="test\**" />
+    <EmbeddedResource Remove="Action\**" />
+    <EmbeddedResource Remove="test\**" />
+    <None Remove="Action\**" />
+    <None Remove="test\**" />
+    <Page Remove="Action\**" />
+    <Page Remove="test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="1ea39f1d62eb0f54617a4f25347e32e8.jpg" />
+    <None Remove="cherch.png" />
+    <None Remove="cherch1.png" />
+    <None Remove="icons8-annuler-50.png" />
+    <None Remove="icons8-flèche-50 %281%29.png" />
+    <None Remove="icons8-flèche-droite-50.png" />
+    <None Remove="icons8-gauche-50.png" />
+    <None Remove="icons8-menu-50.png" />
+    <None Remove="icons8-retenter-50.png" />
+    <None Remove="icons8-x-30.png" />
+    <None Remove="icons8-x-60.png" />
+    <None Remove="img\ico\cherch1.png" />
+    <None Remove="img\ico\icons8-annuler-50.png" />
+    <None Remove="img\ico\icons8-documents-94.png" />
+    <None Remove="img\ico\icons8-engrenage-50.png" />
+    <None Remove="img\ico\icons8-flèche-50 %281%29.png" />
+    <None Remove="img\ico\icons8-flèche-droite-50.png" />
+    <None Remove="img\ico\icons8-gauche-50.png" />
+    <None Remove="img\ico\icons8-jouer-96.png" />
+    <None Remove="img\ico\icons8-move-100.png" />
+    <None Remove="img\ico\icons8-pause-96.png" />
+    <None Remove="img\ico\icons8-retenter-50.png" />
+    <None Remove="img\ico\icons8-télécharger-50.png" />
+    <None Remove="img\ico\icons8-x-30.png" />
+    <None Remove="img\ico\icons8-x-60.png" />
+    <None Remove="img\ico\menu.png" />
+    <None Remove="img\ico\streamscene21.png" />
+    <None Remove="img\logo\stramsceneLogo .png" />
+    <None Remove="menu.png" />
+    <None Remove="Poster1.jpg" />
+    <None Remove="Poster2.jpg" />
+    <None Remove="Poster3.jpg" />
+    <None Remove="Poster4.jpg" />
+    <None Remove="Poster5.jpg" />
+    <None Remove="Poster6.jpg" />
+    <None Remove="Poster7.jpg" />
+    <None Remove="Poster8.jpg" />
+    <None Remove="Poster9.jpg" />
+    <None Remove="StramSceneLogo.png" />
+    <None Remove="StreamScene.png" />
+    <None Remove="streamscene21.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LibVLCSharp" Version="3.9.1" />
+    <PackageReference Include="LibVLCSharp.WPF" Version="3.9.1" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2903.40" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\ico\cherch1.png" />
+    <Resource Include="img\ico\icons8-annuler-50.png" />
+    <Resource Include="img\ico\icons8-documents-94.png" />
+    <Resource Include="img\ico\icons8-engrenage-50.png" />
+    <Resource Include="img\ico\icons8-flèche-50 (1).png" />
+    <Resource Include="img\ico\icons8-gauche-50.png" />
+    <Resource Include="img\ico\icons8-jouer-96.png" />
+    <Resource Include="img\ico\icons8-move-100.png" />
+    <Resource Include="img\ico\icons8-pause-96.png" />
+    <Resource Include="img\ico\icons8-retenter-50.png" />
+    <Resource Include="img\ico\icons8-télécharger-50.png" />
+    <Resource Include="img\ico\icons8-x-30.png" />
+    <Resource Include="img\ico\icons8-x-60.png" />
+    <Resource Include="img\ico\menu.png" />
+    <Resource Include="img\ico\streamscene21.png" />
+    <Resource Include="img\logo\stramsceneLogo .png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Fonts\Poppins-Bold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
