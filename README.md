@@ -1,4 +1,5 @@
 
+
 <h1 align="center">
   <br>
   <img src="https://github.com/user-attachments/assets/f6b7bb2d-97f0-4475-b711-34af63eeb424" alt="StreamScene" width="500"></a>
@@ -11,6 +12,8 @@
 
 ![Capture d'écran 2024-12-24 095222](https://github.com/user-attachments/assets/84fccbd9-f924-4da6-9446-a049f1458482)
 <br>
+# Notice : 
+ This version is no longer supported and we will move to the WEB version soon 
 # Features
 **Direct Streaming via WebTorrent :**
 StreamScene uses WebTorrent CLI to enable instant playback of torrents without the need for downloading the entire file.
@@ -55,3 +58,4 @@ StreamScene is a streaming platform created for educational purposes only. Its p
 # License 
 GNU License Copyright (c) Khaled Abdsalame From [CSA Team](https://github.com/CSA-club)
 <br>
+
