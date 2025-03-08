@@ -12,8 +12,6 @@
 
 ![Capture d'écran 2024-12-24 095222](https://github.com/user-attachments/assets/84fccbd9-f924-4da6-9446-a049f1458482)
 <br>
-# Notice : 
- This version is no longer supported and we will move to the WEB version soon 
 # Features
 **Direct Streaming via WebTorrent :**
 StreamScene uses WebTorrent CLI to enable instant playback of torrents without the need for downloading the entire file.
